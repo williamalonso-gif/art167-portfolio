@@ -1,0 +1,43 @@
+ART 167 — Week 8 Midterm Checklist
+Name: William Alonso
+
+1) Link test (PASS):
+  - From index.html: Home/About/Work/Contact: PASS
+  - From about.html: Home/About/Work/Contact: PASS
+  - From work.html: Home/About/Work/Contact: PASS
+  - From contact.html: Home/About/Work/Contact: PASS
+
+2) Media test (PASS):
+  - index image loads (img/photo-1.jpg): PASS
+  - index video plays (media/flower.mp4): PASS
+  - about image loads (img/photo-2.jpg): PASS
+  - about SVG loads (img/icon.svg): PASS
+  - about audio plays (media/t-rex-roar.mp3): PASS
+
+3) Form test (PASS):
+  - required fields prevent blank submit: PASS
+  - all inputs have label + id + name: PASS
+
+4) Table test (PASS):
+  - table has caption + thead + tbody: PASS
+  - table uses th scope=col and th scope=row: PASS
+
+5) CSS test (PASS):
+  - styles.css loads on all pages: PASS
+  - nav is horizontal and links still work: PASS
+  - overlay badge appears on index: PASS
+  - .highlight styling shows on index: PASS
+
+6) Validator (PASS):
+  - index.html 0 errors: PASS
+  - about.html 0 errors: PASS
+  - work.html 0 errors: PASS
+  - contact.html 0 errors: PASS
+
+7) 7) Fix log (list at least 3 fixes you made):
+  - Fix 1: Removed duplicate image file photo-1.1.jpg
+  - Fix 2: Fixed unclosed <section> tag in index.html
+  - Fix 3: Added consistent spacing and image sizing in CSS
+
+8) One improvement I will focus on next week:
+I will improve the design by adding more colors and better spacing for a cleaner layout.
