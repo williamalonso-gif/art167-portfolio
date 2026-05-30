@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - William Alonso</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Site header -->
+    <header>
+        <h1>Contact Me</h1>
+        <!-- Primary navigation -->
+        <nav aria-label="Primary">
+            <ul>
+                <li><a class="nav-home" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="nav-work" href="work.html">Work</a></li>
+                <li><a class="nav-contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+        <section>
+            <h2>Get in Touch With Me</h2>
+            <p>I enjoy connecting with people who share similar creative interests. In the future, this page will allow visitors to send questions, feedback, or collaboration ideas.</p>
+        </section>
+        
+        <!-- Contact form section -->
+        <section>
+            <h2>Send Me a Message</h2>
+            <p>Fields marked &ldquo;(required)&rdquo; must be filled out before you can submit.</p>
+            <form action="#" method="post">
+                <!-- Full Name -->
+                <p>
+                    <label for="fullname">Full Name (required)</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+                <!-- Email -->
+                <p>
+                    <label for="email">Email (required)</label><br>
+                    <input type="email" id="email" name="email" required>
+                    <br><small>Example: name@example.com</small>
+                </p>
+                <!-- Phone -->
+                <p>
+                    <label for="phone">Phone (optional)</label><br>
+                    <input type="tel" id="phone" name="phone">
+                    <br><small>If you include a phone number, use digits only.</small>
+                </p>
+                <!-- Reason -->
+                <p>
+                    <label for="reason">Reason for Contact (required)</label><br>
+                    <select id="reason" name="reason" required>
+                        <option value="">-- Select one --</option>
+                        <option value="question">General Question</option>
+                        <option value="project">Project Inquiry</option>
+                        <option value="collab">Collaboration</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <!-- Preferred contact -->
+                <fieldset>
+                    <legend>Preferred Contact Method (required)</legend>
+                    <p>
+                        <input type="radio" id="pref-email" name="preferred_contact" value="email" required>
+                        <label for="pref-email">Email</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="pref-phone" name="preferred_contact" value="phone">
+                        <label for="pref-phone">Phone</label>
+                    </p>
+                </fieldset>
+                <!-- Newsletter -->
+                <p>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Yes, send me updates (optional)</label>
+                </p>
+                <!-- Message -->
+                <p>
+                    <label for="message">Message (required)</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                </p>
+                <!-- Buttons -->
+                <p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <!-- Site footer -->
+    <footer>
+        <p>&copy; 2026 <strong>William Alonso</strong></p>
+    </footer>
+</body>
+</html>
