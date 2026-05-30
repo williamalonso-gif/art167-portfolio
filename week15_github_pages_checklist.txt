@@ -1,0 +1,22 @@
+ART 167 — Week 15 GitHub Pages Checklist
+Name: William Alonso
+
+A) Links
+- Live site URL:
+- Repo URL:
+
+B) Pages settings
+- Branch used for Pages: main / (root) (YES/NO): YES
+
+C) Live testing (PASS/FAIL)
+- Home/About/Work/Contact links work on LIVE site:
+- CSS loads on LIVE site (site looks styled):
+- Images load on LIVE site:
+- Audio/video loads if present:
+- Contact form required fields still work:
+- Work projects grid responds on mobile widths:
+
+D) One issue + fix (required)
+- Issue I encountered (or “none”):
+- How I found it (DevTools/Testing):
+- Fix I made (file + change):

@@ -1,0 +1,22 @@
+ART 167 — Week 14 Grid + Effects Checklist
+Name: William Alonso
+
+GRID TESTS (PASS/FAIL)
+A) Desktop (~1200px): projects form multiple columns: PASS
+B) Medium (~800px): grid still looks clean (no overflow): PASS
+C) Phone (~375px): projects become 1 column: PASS
+D) Featured project spans taller on desktop (>=850px): PASS
+E) No horizontal scrolling: PASS
+
+EFFECTS + ACCESSIBILITY (PASS/FAIL)
+F) Project cards have border-radius + box-shadow: PASS
+G) Project cards lift slightly on hover: PASS
+H) Nav links show hover feedback: PASS
+I) Nav links show focus outline when tabbing: PASS
+J) Submit button shows hover + focus feedback: PASS
+K) One animation exists and is subtle: PASS
+L) prefers-reduced-motion rule exists: PASS
+
+FIX LOG (at least 2 fixes or improvements)
+- Fix 1: Replaced the flexbox layout with a responsive CSS Grid layout.
+- Fix 2: Added hover, focus, and animation effects to improve accessibility and visual feedback.

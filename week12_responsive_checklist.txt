@@ -1,0 +1,22 @@
+ART 167 — Week 12 Responsive Checklist
+
+Name: William Alonso
+
+Test widths (PASS/FAIL)
+
+A) 375px wide (phone)
+- Nav is easy to tap and not cramped: PASS
+- Work projects stack or wrap cleanly: PASS
+- No horizontal scrolling: PASS
+
+B) 768px wide (tablet)
+- Nav still works and looks clean: PASS
+- Work projects show 2 columns (if space allows): PASS
+
+C) 1200px wide (desktop)
+- Text line length stays readable (max-width): PASS
+- Work projects show 3 columns (if space allows): PASS
+
+Fix log (list at least 2 fixes you made):
+- Fix 1: Added a flexbox wrapper for the project cards.
+- Fix 2: Added media queries to improve navigation on small screens.
