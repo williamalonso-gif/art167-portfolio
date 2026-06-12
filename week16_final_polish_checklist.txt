@@ -1,0 +1,52 @@
+ART 167 — Final Polish Checklist (Weeks 16–17)
+Name: William Alonso
+
+LIVE LINKS
+- Live site URL: https://williamalonso-gif.github.io/art167-portfolio/
+- Repo URL: https://github.com/williamalonso-gif/art167-portfolio
+
+A) REQUIRED UX/UI IMPROVEMENTS
+
+1. Improve spacing/whitespace in at least TWO areas: PASS
+2. Improve heading clarity/hierarchy: PASS
+3. Improve navigation usability: PASS
+4. Improve readability: PASS
+5. Improve consistency: PASS
+6. Improve contrast where needed: PASS
+7. Improve Work page scanability: PASS
+
+B) REQUIRED CODE / MAINTAINABILITY IMPROVEMENTS
+
+1. Re-organize styles.css with clear section comments: PASS
+2. Remove or comment out unused CSS rules: PASS
+3. Standardize class names / reduce duplicates: PASS
+4. Make indentation and formatting consistent across HTML + CSS: PASS
+5. Add or improve helpful comments: PASS
+
+C) SITE-WIDE FUNCTION CHECKS
+
+Nav links work from every page: PASS
+Responsive behavior works at ~375px, ~768px, ~1200px: PASS
+No horizontal scrolling on mobile: PASS
+Keyboard focus is visible on mobile: PASS
+Contact form required fields still work: PASS
+Work page projects grid still works: PASS
+Table  still has caption + headers: PASS
+Images/media load properly: PASS
+
+D) VALIDATION
+
+index.html: 0 errors PASS
+about.html: 0 errors PASS
+work.html: 0 errors PASS
+contact.html: 0 errors PASS
+
+E) CHANGE LOG
+1. Increased navigation padding to improve usability on touch devices.
+2. Added visible keyboard focus styles for navigation links and form controls.
+3. Increased body font size to 17px for better readability.
+4. Improved line-height to 1.7 to reduce cramped text.
+5. Limited main content width to 900px for better line length.
+6. Added fieldset and legend styling for improved form organization.
+7. Added consistent card styling with border-radius and box shadows.
+8. Improved project grid layout on the Work page for easier scanning.
